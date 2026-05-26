@@ -1,0 +1,34 @@
+# Template — Democratic-Review Record (DRR)
+# Schema instance. Replace placeholders before use.
+democratic_review_record:
+  id: SMD-GOV-DRR-<unique-id>
+  version: "0.1.0"
+  status: draft
+  subject:
+    type: programme | technology | infrastructure | neural-network | leadership | decision
+    id: <subject-id>
+  convened_by: <Q-GOV or delegated body>
+  date: <YYYY-MM-DD>
+  quorum:
+    required: <n>
+    present: <n>
+    met: true
+  participants:
+    - id: <participant-id>
+      role: <role>
+      vote: for | against | abstain
+  decision:
+    summary: "<concise decision>"
+    rationale: "<reasoning>"
+    dissents:
+      - participant: <participant-id>
+        reason: "<dissent reason>"
+  actions:
+    - id: <action-id>
+      owner: <organization-id>
+      due: <YYYY-MM-DD>
+  appeal:
+    open: false
+    deadline: <YYYY-MM-DD>
+  publication:
+    public_record_uri: <uri>

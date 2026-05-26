@@ -1,0 +1,22 @@
+# Template — SMD Traceability Matrix
+# Schema instance. One row per P / T / I / N node.
+smd_traceability_matrix:
+  version: "0.1.0"
+  generated_at: <YYYY-MM-DDTHH:MM:SSZ>
+  rows:
+    - node_id: <P/T/I/N-id>
+      layer: P | T | I | N
+      title: "<node title>"
+      accountable_organization: <Q-DIVISION or Q-ORB id>
+      lifecycle_phase: <LC01..LC14>
+      merit_evidence_record: <SMD-EVM-... id>
+      democratic_review_mechanism: <SMD-GOV-003 record-id>
+      cross_links:
+        programmes: []
+        technologies: []
+        infrastructures: []
+        neural_networks: []
+      compliance:
+        smd_gov_001: pass | fail | pending
+        smd_gov_002: pass | fail | pending
+        smd_gov_003: pass | fail | pending
