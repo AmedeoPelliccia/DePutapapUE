@@ -1,0 +1,38 @@
+# Template — Merit-Evidence Record (MER)
+# Schema instance. Replace placeholders before use.
+merit_evidence_record:
+  id: SMD-EVM-MER-<unique-id>
+  version: "0.1.0"
+  status: draft
+  contributor:
+    id: <contributor-id>
+    role: <role>
+    organization: <Q-DIVISION or Q-ORB id>
+  claim:
+    summary: "<short description of the contribution>"
+    type: technical | governance | operational | social
+    evidence:
+      - artifact: <path-or-uri>
+        kind: document | dataset | test-report | review-record | measurement
+        hash: <sha256>
+  measurement:
+    baseline: "<baseline metric>"
+    post_action: "<post-action metric>"
+    uncertainty_reduction: "<delta>"
+  fair_access_adjustment:
+    applied: false
+    rationale: ""
+  verification:
+    verifier: <verifier-id>
+    method: independent-review
+    decision: pending | accepted | rejected
+  linkage:
+    programme: <P-id, optional>
+    technology: <T-id, optional>
+    infrastructure: <I-id, optional>
+    neural_network: <N-id, optional>
+  lifecycle_phase: <LC01..LC14>
+  democratic_review_reference: <SMD-GOV-003 record-id>
+  retention:
+    policy: <policy-id>
+    until: <date or 'indefinite'>
