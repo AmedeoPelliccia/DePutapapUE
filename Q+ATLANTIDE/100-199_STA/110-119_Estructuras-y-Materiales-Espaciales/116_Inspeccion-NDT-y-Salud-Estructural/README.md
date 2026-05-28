@@ -15,7 +15,7 @@ section_title: "Estructuras y Materiales Espaciales"
 subsection: "116"
 subsection_title: "Inspección NDT y Salud Estructural"
 primary_q_division: Q-SPACE
-support_q_divisions: [Q-STRUCTURES, Q-QA, Q-DATAGOV, Q-SENSORS, Q-MANUFACTURING]
+support_q_divisions: [Q-STRUCTURES, Q-DATAGOV, Q-HORIZON, Q-HPC, Q-INDUSTRY]
 orb_function_support: [ORB-PMO, ORB-FIN]
 linked_nodes:
   - "111_Materiales-Espaciales"
@@ -69,7 +69,7 @@ This subsection is part of the **ATLAS-1000** register, a subpart of the control
 | Subsection | `116` — Inspección NDT y Salud Estructural |
 | Subsubject namespace | `000`–`090` (10 active); higher reserved |
 | Primary Q-Division | Q-SPACE[^qdiv] |
-| Support Q-Divisions | Q-STRUCTURES, Q-QA, Q-DATAGOV, Q-SENSORS, Q-MANUFACTURING |
+| Support Q-Divisions | Q-STRUCTURES, Q-DATAGOV, Q-HORIZON, Q-HPC, Q-INDUSTRY |
 | ORB support | ORB-PMO, ORB-FIN |
 | Governance class | `baseline`[^gov] |
 | Safety boundary | fracture-critical inspection and SHM |
@@ -81,7 +81,7 @@ This subsection is part of the **ATLAS-1000** register, a subpart of the control
 
 ## Governance
 
-Governed by [`organization/Q+ATLANTIDE.md`](../../../../organization/Q+ATLANTIDE.md)[^baseline]. All subsubjects inherit `architecture_code = STA`, `primary_q_division = Q-SPACE`, `support_q_divisions = [Q-STRUCTURES, Q-QA, Q-DATAGOV, Q-SENSORS, Q-MANUFACTURING]`, and `governance_class = baseline`. Extensions under `091`–`099` shall preserve those header fields, declare the `safety_boundary`, and reuse the footnote set.
+Governed by [`organization/Q+ATLANTIDE.md`](../../../../organization/Q+ATLANTIDE.md)[^baseline]. All subsubjects inherit `architecture_code = STA`, `primary_q_division = Q-SPACE`, `support_q_divisions = [Q-STRUCTURES, Q-DATAGOV, Q-HORIZON, Q-HPC, Q-INDUSTRY]`, and `governance_class = baseline`. Extensions under `091`–`099` shall preserve those header fields, declare the `safety_boundary`, and reuse the footnote set.
 
 ## 5. References & Citations
 

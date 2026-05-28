@@ -8,7 +8,7 @@ subsection: "116"
 subsubject: "090"
 subsubject_title: "Traceability Evidence and Lifecycle Governance"
 primary_q_division: Q-SPACE
-support_q_divisions: [Q-STRUCTURES, Q-QA, Q-DATAGOV, Q-SENSORS, Q-MANUFACTURING]
+support_q_divisions: [Q-STRUCTURES, Q-DATAGOV, Q-HORIZON, Q-HPC, Q-INDUSTRY]
 governance_class: baseline
 version: 1.0.0
 status: active
@@ -28,7 +28,7 @@ Defines the **traceability, evidence and lifecycle governance** requirements for
 - Concepts in scope:
   - **Evidence package** — NDT procedures, POD reports, scan files (UT C-scan, RT/CT volumes), SHM baselines, calibration certificates, personnel certifications; retained for hardware operational life + 10 years.
   - **Traceability** — every inspection record linked to part serial number, drawing revision, procedure revision, inspector ID, equipment ID and calibration date.
-  - **Change control** — NDT procedure or SHM algorithm change authority: **Q-STRUCTURES + Q-QA + Q-DATAGOV + ORB-PMO**; FCI changes require fracture-control board (FCB) endorsement.
+  - **Change control** — NDT procedure or SHM algorithm change authority: **Q-STRUCTURES + Q-SPACE + ORB-PMO**; FCI changes require fracture-control board (FCB) endorsement.
   - **Review gates** — PDR (NDT/SHM plan), CDR (qualified procedures + sensor layout), QTR (qualification evidence), MRR (acceptance NDT records), Operational Readiness (SHM baseline frozen).
   - **Non-conformance** — NCR raised on rejectable indications; MRB disposition (use-as-is / repair / scrap); rework re-inspected to original criteria.
   - **Independent oversight** — annual QMS audit per ISO 9001[^iso9001]; customer/agency witness on FCI inspections as required.
@@ -44,7 +44,7 @@ flowchart LR
     NCR -->|Yes| MRB["MRB Disposition\n(use-as-is / repair / scrap)"]
     NCR -->|No| REL["Released to Next Stage"]
     MRB --> RWK["Rework & Re-inspect"]
-    GATE --> SIGN["Sign-off\nQ-STRUCTURES + Q-QA + Q-DATAGOV + ORB-PMO"]
+    GATE --> SIGN["Sign-off\nQ-STRUCTURES + Q-SPACE + ORB-PMO"]
     style SIGN fill:#1f3a93,color:#fff
     style REL fill:#2c82c9,color:#fff
 ```

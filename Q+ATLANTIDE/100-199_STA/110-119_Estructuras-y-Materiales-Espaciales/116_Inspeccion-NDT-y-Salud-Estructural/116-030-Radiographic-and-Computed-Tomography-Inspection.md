@@ -8,7 +8,7 @@ subsection: "116"
 subsubject: "030"
 subsubject_title: "Radiographic and Computed-Tomography Inspection"
 primary_q_division: Q-SPACE
-support_q_divisions: [Q-STRUCTURES, Q-QA, Q-DATAGOV, Q-SENSORS, Q-MANUFACTURING]
+support_q_divisions: [Q-STRUCTURES, Q-DATAGOV, Q-HORIZON, Q-HPC, Q-INDUSTRY]
 governance_class: baseline
 version: 1.0.0
 status: active

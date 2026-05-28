@@ -7,7 +7,7 @@ architecture_code: STA
 subsection: "116"
 subsection_title: "Inspección NDT y Salud Estructural"
 primary_q_division: Q-SPACE
-support_q_divisions: [Q-STRUCTURES, Q-QA, Q-DATAGOV, Q-SENSORS, Q-MANUFACTURING]
+support_q_divisions: [Q-STRUCTURES, Q-DATAGOV, Q-HORIZON, Q-HPC, Q-INDUSTRY]
 governance_class: baseline
 version: 1.0.0
 status: active
@@ -51,7 +51,7 @@ This subsubject (`000 Overview`) introduces the STA 110-119.116 slice and links 
 | Subsection | `116` — Inspección NDT y Salud Estructural |
 | Subsubject | `000` — Overview |
 | Primary Q-Division | Q-SPACE[^qdiv] |
-| Support Q-Divisions | Q-STRUCTURES, Q-QA, Q-DATAGOV, Q-SENSORS, Q-MANUFACTURING |
+| Support Q-Divisions | Q-STRUCTURES, Q-DATAGOV, Q-HORIZON, Q-HPC, Q-INDUSTRY |
 | ORB support | ORB-PMO, ORB-FIN |
 | Governance class | `baseline`[^gov] |
 | Folder path | `Q+ATLANTIDE/100-199_STA/110-119_Estructuras-y-Materiales-Espaciales/116_Inspeccion-NDT-y-Salud-Estructural/` |

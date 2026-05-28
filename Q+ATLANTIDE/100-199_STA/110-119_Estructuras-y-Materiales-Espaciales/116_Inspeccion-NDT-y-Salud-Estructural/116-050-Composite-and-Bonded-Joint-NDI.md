@@ -8,7 +8,7 @@ subsection: "116"
 subsubject: "050"
 subsubject_title: "Composite and Bonded-Joint NDI"
 primary_q_division: Q-SPACE
-support_q_divisions: [Q-STRUCTURES, Q-QA, Q-DATAGOV, Q-SENSORS, Q-MANUFACTURING]
+support_q_divisions: [Q-STRUCTURES, Q-DATAGOV, Q-HORIZON, Q-HPC, Q-INDUSTRY]
 governance_class: baseline
 version: 1.0.0
 status: active
