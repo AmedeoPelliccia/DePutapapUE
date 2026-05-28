@@ -8,7 +8,7 @@ subsection: "115"
 subsubject: "030"
 subsubject_title: "Metallic Structural Fabrication and Welding"
 primary_q_division: Q-SPACE
-support_q_divisions: [Q-STRUCTURES, Q-MANUFACTURING, Q-DATAGOV, Q-INDUSTRY, Q-QA]
+support_q_divisions: [Q-STRUCTURES, Q-DATAGOV, Q-HORIZON, Q-HPC, Q-INDUSTRY]
 governance_class: baseline
 version: 1.0.0
 status: active

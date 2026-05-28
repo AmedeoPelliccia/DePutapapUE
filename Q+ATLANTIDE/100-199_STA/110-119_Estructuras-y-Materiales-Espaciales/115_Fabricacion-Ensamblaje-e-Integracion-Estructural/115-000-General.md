@@ -7,7 +7,7 @@ architecture_code: STA
 subsection: "115"
 subsection_title: "Fabricación, Ensamblaje e Integración Estructural"
 primary_q_division: Q-SPACE
-support_q_divisions: [Q-STRUCTURES, Q-MANUFACTURING, Q-DATAGOV, Q-INDUSTRY, Q-QA]
+support_q_divisions: [Q-STRUCTURES, Q-DATAGOV, Q-HORIZON, Q-HPC, Q-INDUSTRY]
 governance_class: baseline
 version: 1.0.0
 status: active
@@ -51,7 +51,7 @@ This subsubject (`000 Overview`) introduces the STA 110-119.115 slice and links 
 | Subsection | `115` — Fabricación, Ensamblaje e Integración Estructural |
 | Subsubject | `000` — Overview |
 | Primary Q-Division | Q-SPACE[^qdiv] |
-| Support Q-Divisions | Q-STRUCTURES, Q-MANUFACTURING, Q-DATAGOV, Q-INDUSTRY, Q-QA |
+| Support Q-Divisions | Q-STRUCTURES, Q-DATAGOV, Q-HORIZON, Q-HPC, Q-INDUSTRY |
 | ORB support | ORB-PMO, ORB-FIN |
 | Governance class | `baseline`[^gov] |
 | Folder path | `Q+ATLANTIDE/100-199_STA/110-119_Estructuras-y-Materiales-Espaciales/115_Fabricacion-Ensamblaje-e-Integracion-Estructural/` |
