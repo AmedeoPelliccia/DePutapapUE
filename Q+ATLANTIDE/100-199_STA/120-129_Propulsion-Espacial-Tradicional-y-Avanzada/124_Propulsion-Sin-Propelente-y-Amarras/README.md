@@ -1,84 +1,51 @@
 ---
-document_id: QATL-ATLAS-1000-STA-120-129-02-124-README
-title: "STA 120-129 · 02.124 — Propulsión Sin Propelente y Amarras (Subsection Index)"
-register: ATLAS-1000
+document_id: QATL-STA-120-129-124-README
+title: "STA 120-129 · 124 — Propulsión Sin Propelente y Amarras"
+register: Q+ATLANTIDE1000
 parent_baseline: Q+ATLANTIDE
-parent_baseline_doc: ../../../../organization/Q+ATLANTIDE.md
-parent_architecture_doc: ../../README.md
-parent_section_doc: ../README.md
 architecture_code: STA
-architecture_name: "Space Technology Architecture"
-master_range: "100–199"
-code_range: "120-129"
-section: "02"
-section_title: "Propulsión Espacial Tradicional y Avanzada"
-subsection: "124"
-subsection_title: "Propulsión Sin Propelente y Amarras"
+code_range: "120-129_Propulsion-Espacial-Tradicional-y-Avanzada"
+node: "124_Propulsion-Sin-Propelente-y-Amarras"
 primary_q_division: Q-SPACE
-support_q_divisions: [Q-GREENTECH, Q-STRUCTURES, Q-DATAGOV, Q-HPC, Q-HORIZON]
-orb_function_support: [ORB-PMO, ORB-LEG]
-safety_boundary: "deployment and orbital-traffic critical; requires environment coupling controls, dynamic stability margins, debris-safe operation and assured disposal"
 governance_class: baseline
-version: 1.0.0
-status: active
+version: "1.0.0"
+status: draft-of-record
 language: en
-no_aaa_rule: true
 ---
 
-# STA 120-129 · Section 02 · Subsection 124 — Propulsión Sin Propelente y Amarras
+# STA 120-129 · 124 — Propulsión Sin Propelente y Amarras
 
-## 1. Purpose
+Subsection `124` defines the controlled taxonomy for tether-based and propellantless propulsion approaches within STA section `120-129`. It consolidates family definitions, cross-cutting dynamics and environment interfaces, quantitative envelopes, and assurance closure boundaries under one governed node set.[^section][^archtable]
 
-Subsection-level index for *Tether and Propellantless Propulsion* (`124`) within STA `120-129` — *Propulsión Espacial Tradicional y Avanzada*.
+## Subsection safety boundary
 
-This subsection is part of the **ATLAS-1000** register, a subpart of the controlled **Q+ATLANTIDE** baseline[^baseline][^n001].
+**deployment and orbital-traffic critical; requires environment coupling controls, dynamic stability margins, debris-safe operation and assured disposal.**
 
-## 2. Scope
+## Node index
 
-- Populates the subsubject namespace `000`–`090` of subsection `124`.
-- Inherits Q-Division authority and ORB support from the parent row in [`../../README.md` §3](../../README.md#3-architecture-table)[^archtable] and the section index in [`../README.md`](../README.md).
-- Safety boundary: **deployment and orbital-traffic critical; requires environment coupling controls, dynamic stability margins, debris-safe operation and assured disposal**.
+| Topic | Controlled title | Role | Status |
+|---|---|---|---|
+| `124-000` | [General](./124-000-General.md) | General governance anchor | draft-of-record |
+| `124-010` | [Tether and Propellantless Propulsion Controlled Definition](./124-010-Tether-and-Propellantless-Propulsion-Controlled-Definition.md) | Controlled definition and taxonomy | draft-of-record |
+| `124-020` | [Propellantless Families and Selection Criteria](./124-020-Propellantless-Families-and-Selection-Criteria.md) | Family selection and trade framework | draft-of-record |
+| `124-030` | [Electrodynamic Tether Systems](./124-030-Electrodynamic-Tether-Systems.md) | Technique node — Family A EDT | draft-of-record |
+| `124-040` | [Momentum Exchange and Spinning Tethers](./124-040-Momentum-Exchange-and-Spinning-Tethers.md) | Technique node — Family B MXT | draft-of-record |
+| `124-050` | [Aerodynamic Drag and Deorbit Devices](./124-050-Aerodynamic-Drag-and-Deorbit-Devices.md) | Technique node — Family C ADD | draft-of-record |
+| `124-060` | [Conductive Elements, Deployment and Dynamics](./124-060-Conductive-Elements-Deployment-and-Dynamics.md) | Cross-cutting deployment and dynamics | draft-of-record |
+| `124-070` | [Plasma and Geomagnetic Environment Interface](./124-070-Plasma-and-Geomagnetic-Environment-Interface.md) | Cross-cutting environment coupling | draft-of-record |
+| `124-080` | [Performance Bounds and Operational Envelopes](./124-080-Performance-Bounds-and-Operational-Envelopes.md) | Quantitative envelope authority | draft-of-record |
+| `124-090` | [Safety, Debris and Assurance Boundaries](./124-090-Safety-Debris-and-Assurance-Boundaries.md) | Assurance closure node | draft-of-record |
 
-## 3. Subsubject Index
+## Ownership and cross-references
 
-| NNN | Title | Document | Status |
-|---:|---|---|---|
-| 000 | General | [`124-000-General.md`](./124-000-General.md) | active |
-| 010 | Tether and Propellantless Propulsion Controlled Definition | [`124-010-Tether-and-Propellantless-Propulsion-Controlled-Definition.md`](./124-010-Tether-and-Propellantless-Propulsion-Controlled-Definition.md) | active |
-| 020 | Propellantless Families and Selection Criteria | [`124-020-Propellantless-Families-and-Selection-Criteria.md`](./124-020-Propellantless-Families-and-Selection-Criteria.md) | active |
-| 030 | Electrodynamic Tether Systems | [`124-030-Electrodynamic-Tether-Systems.md`](./124-030-Electrodynamic-Tether-Systems.md) | active |
-| 040 | Momentum Exchange and Spinning Tethers | [`124-040-Momentum-Exchange-and-Spinning-Tethers.md`](./124-040-Momentum-Exchange-and-Spinning-Tethers.md) | active |
-| 050 | Aerodynamic Drag and Deorbit Devices | [`124-050-Aerodynamic-Drag-and-Deorbit-Devices.md`](./124-050-Aerodynamic-Drag-and-Deorbit-Devices.md) | active |
-| 060 | Conductive Elements Deployment and Dynamics | [`124-060-Conductive-Elements-Deployment-and-Dynamics.md`](./124-060-Conductive-Elements-Deployment-and-Dynamics.md) | active |
-| 070 | Plasma and Geomagnetic Environment Interface | [`124-070-Plasma-and-Geomagnetic-Environment-Interface.md`](./124-070-Plasma-and-Geomagnetic-Environment-Interface.md) | active |
-| 080 | Performance Bounds and Operational Envelopes | [`124-080-Performance-Bounds-and-Operational-Envelopes.md`](./124-080-Performance-Bounds-and-Operational-Envelopes.md) | active |
-| 090 | Safety Debris and Assurance Boundaries | [`124-090-Safety-Debris-and-Assurance-Boundaries.md`](./124-090-Safety-Debris-and-Assurance-Boundaries.md) | active |
+Node `124` owns the tether and propellantless propulsion subsection taxonomy and boundary controls for Family A EDT, Family B MXT, and Family C ADD. It references upstream architecture context in `123` and downstream section continuity in `125` and `126`. Programme and cross-architecture linkage is coordinated through EPTA-aligned impact studies and registered cross-links in `129-070`. This subsection remains baseline-governed and programme-agnostic at register level.
 
-## 4. Footprint
+## Governance
 
-| Metric | Value |
-|---|---|
-| Architecture | `STA` — Space Technology Architecture |
-| Master range | `100–199` |
-| Code range | `120-129` |
-| Section | `02` — Propulsión Espacial Tradicional y Avanzada |
-| Subsection | `124` — Propulsión Sin Propelente y Amarras |
-| Subsubject namespace | `000`–`090` (10 active); higher reserved |
-| Primary Q-Division | Q-SPACE[^qdiv] |
-| Support Q-Divisions | Q-GREENTECH, Q-STRUCTURES, Q-DATAGOV, Q-HPC, Q-HORIZON |
-| ORB support | ORB-PMO, ORB-LEG |
-| Governance class | `baseline`[^gov] |
-| Folder path | `Q+ATLANTIDE/100-199_STA/120-129_Propulsion-Espacial-Tradicional-y-Avanzada/124_Propulsion-Sin-Propelente-y-Amarras/` |
-| Document | `README.md` (this file) |
+Owning Q-Division: **Q-SPACE**. Support divisions: **Q-GREENTECH, Q-STRUCTURES, Q-DATAGOV, Q-HPC, Q-HORIZON**. ORB support functions: **ORB-PMO, ORB-LEG**. Change authority is controlled under the Q+ATLANTIDE baseline governance class `baseline`, with section-level alignment to STA architecture controls.[^baseline]
 
-## 5. References & Citations
+## References
 
 [^baseline]: **Q+ATLANTIDE controlled baseline (v1.0.0)** — [`organization/Q+ATLANTIDE.md`](../../../../organization/Q+ATLANTIDE.md).
-
-[^archtable]: **§3 — Architecture Table (parent)** — [`../../README.md` §3](../../README.md#3-architecture-table).
-
-[^qdiv]: **Q-Division authority** — [`organization/Q-Divisions/`](../../../../organization/Q-Divisions/).
-
-[^gov]: **Governance class** — `baseline` denotes documents under controlled change management within the Q+ATLANTIDE baseline.
-
-[^n001]: **Note N-001** — Q+ATLANTIDE (with its ATLAS-1000 register subpart) is a taxonomy and traceability ecosystem, not an organization chart. See [`organization/Q+ATLANTIDE.md` §4](../../../../organization/Q+ATLANTIDE.md#4-notes).
+[^section]: **Section index (120-129 · Propulsión Espacial Tradicional y Avanzada)** — [`../README.md`](../README.md).
+[^archtable]: **STA §3 Architecture Table** — [`../../README.md` §3](../../README.md#3-architecture-table).
