@@ -25,7 +25,7 @@ language: en
 
 ## 1. Purpose
 
-Section-level index for *Propulsión Espacial Tradicional y Avanzada* (`120-129`) within the STA band. Propulsión química, eléctrica, nuclear conceptual y propulsión avanzada.
+Section-level index for *Propulsión Espacial Tradicional y Avanzada* (`120-129`) within the STA band. Propulsión química, eléctrica, nuclear conceptual, avanzada, sin propelente, VLEO, micropropulsión, gestión de propelente, integración GNC y aseguramiento de propulsión.
 
 This section is part of the **ATLAS-1000** register, a subpart of the controlled **Q+ATLANTIDE** baseline[^baseline][^n001]. Bands classify technologies, Q-Divisions provide technical authority and ORB-Functions provide enterprise support[^n002].
 
@@ -42,7 +42,13 @@ This section is part of the **ATLAS-1000** register, a subpart of the controlled
 | `120` | Propulsión Química | [`./120_Propulsion-Quimica/`](./120_Propulsion-Quimica/) | reserved |
 | `121` | Propulsión Eléctrica | [`./121_Propulsion-Electrica/`](./121_Propulsion-Electrica/) | reserved |
 | `122` | Propulsión Nuclear Conceptual | [`./122_Propulsion-Nuclear-Conceptual/`](./122_Propulsion-Nuclear-Conceptual/) | reserved |
-| `123` | Propulsión Avanzada | [`./123_Propulsion-Avanzada/`](./123_Propulsion-Avanzada/) | reserved |
+| `123` | Propulsión Avanzada | [`./123_Propulsion-Avanzada/`](./123_Propulsion-Avanzada/) | active |
+| `124` | Propulsión Sin Propelente y Amarras | [`./124_Propulsion-Sin-Propelente-y-Amarras/`](./124_Propulsion-Sin-Propelente-y-Amarras/) | active |
+| `125` | Propulsión Respiradora de Aire y VLEO | [`./125_Propulsion-Respiradora-de-Aire-y-VLEO/`](./125_Propulsion-Respiradora-de-Aire-y-VLEO/) | active |
+| `126` | Micropropulsión y Control de Reacción | [`./126_Micropropulsion-y-Control-de-Reaccion/`](./126_Micropropulsion-y-Control-de-Reaccion/) | active |
+| `127` | Gestión de Propelente y Reabastecimiento en Órbita | [`./127_Gestion-de-Propelente-y-Reabastecimiento-en-Orbita/`](./127_Gestion-de-Propelente-y-Reabastecimiento-en-Orbita/) | active |
+| `128` | Integración de Propulsión e Interfaz GNC | [`./128_Integracion-de-Propulsion-e-Interfaz-GNC/`](./128_Integracion-de-Propulsion-e-Interfaz-GNC/) | active |
+| `129` | Aseguramiento, Calificación y Expansión de Propulsión | [`./129_Aseguramiento-Calificacion-y-Expansion-de-Propulsion/`](./129_Aseguramiento-Calificacion-y-Expansion-de-Propulsion/) | active |
 
 ## 4. Interfaces Diagram
 
@@ -58,6 +64,12 @@ flowchart TB
         SUB_121["121 — Electric Propulsion"]:::sub
         SUB_122["122 — Nuclear Propulsion (Conceptual)"]:::sub
         SUB_123["123 — Advanced Propulsion"]:::sub
+        SUB_124["124 — Tether & Propellantless"]:::sub
+        SUB_125["125 — Air-Breathing & VLEO"]:::sub
+        SUB_126["126 — Micropropulsion & RCS"]:::sub
+        SUB_127["127 — Propellant Mgmt & Refueling"]:::sub
+        SUB_128["128 — Integration & GNC Interface"]:::sub
+        SUB_129["129 — Assurance & Qualification"]:::sub
     end
     SEC --> SUBS
 
@@ -73,6 +85,12 @@ flowchart TB
     SUBS --> SUB_121
     SUBS --> SUB_122
     SUBS --> SUB_123
+    SUBS --> SUB_124
+    SUBS --> SUB_125
+    SUBS --> SUB_126
+    SUBS --> SUB_127
+    SUBS --> SUB_128
+    SUBS --> SUB_129
 
     classDef parent fill:#1f3a93,stroke:#0b1d4a,color:#fff
     classDef sec fill:#2c82c9,stroke:#0b1d4a,color:#fff
@@ -92,7 +110,7 @@ flowchart TB
 | Master range | `100–199` |
 | Code range | `120-129` |
 | Section | `02` — Propulsión Espacial Tradicional y Avanzada |
-| Subsections | 4 reserved |
+| Subsections | 10 total (7 active, 3 reserved) |
 | Primary Q-Division | Q-GREENTECH[^qdiv] |
 | Support Q-Divisions | Q-SPACE, Q-HORIZON, Q-HPC |
 | ORB support | ORB-PMO, ORB-LEG |
